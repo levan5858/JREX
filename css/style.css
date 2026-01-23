@@ -475,3 +475,124 @@ section { padding: 60px 0; }
     .footer-grid { grid-template-columns: 1fr; }
     .form-row { flex-direction: column; }
 }
+
+@media (max-width: 768px) {
+    .nav-inner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .nav-links a {
+        margin: 0;
+        font-size: 0.95rem;
+    }
+
+    .cta-button {
+        align-self: flex-end;
+    }
+
+    .hero {
+        padding: 60px 0 20px;
+    }
+
+    .hero-copy h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-actions {
+        width: 100%;
+    }
+
+    .trade-button,
+    .ghost-button {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-stats {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .hero-visual {
+        min-height: 280px;
+    }
+
+    .hero-art {
+        height: 280px;
+    }
+
+    .hero-card {
+        width: 140px;
+        height: 95px;
+    }
+
+    .hero-card img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .card-a { top: 20px; left: 16px; }
+    .card-b { top: 40px; right: 16px; }
+    .card-c { bottom: 30px; left: 20px; }
+    .card-d { bottom: 16px; right: 20px; }
+}
+
+@media (max-width: 520px) {
+    .container { padding: 0 16px; }
+
+    .logo-img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo-text {
+        font-size: 1.2rem;
+    }
+
+    .hero-copy h1 {
+        font-size: 1.9rem;
+    }
+
+    .hero-copy p {
+        font-size: 1rem;
+    }
+
+    .product-grid,
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ticker-item {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .float-img {
+        display: none;
+    }
+
+    .hero-visual {
+        min-height: 240px;
+    }
+
+    .hero-art {
+        height: 240px;
+    }
+
+    .hero-card {
+        width: 120px;
+        height: 85px;
+    }
+
+    .hero-card span {
+        font-size: 0.85rem;
+    }
+}
